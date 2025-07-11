@@ -1,0 +1,392 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Common CSS */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+input{
+   outline: none;
+   border: none;
+}
+
+.inter-font{
+   font-family: "Inter", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+}
+
+.raleway-font{
+   font-family: "Raleway", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+}
+
+.primary-color{
+   background-color: #4d47ffc2;
+   transition: all linear .3s;
+}
+
+.primary-color:hover{
+   background-color: #4E47FF;
+   transform: translateY(-5px);
+}
+
+.heading-text{
+   color: #252432;
+}
+
+.wrapper{
+   max-width: 1140px;
+   margin: 0 auto;
+}
+
+a{
+   text-decoration: none;
+}
+
+ul li{
+   list-style: none;
+}
+
+.btn-primary{
+   padding: 12px 36px;
+   font-weight: 700;
+   font-size: 16px;
+   color: #fff;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+/* Header section */
+main{
+   background-color: #928ee31a;
+}
+
+#main-header{
+   width: 100%;
+   height: 100vh;
+   background-image: url('../Assets/Hero-bg.png');
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.navigation-bar{
+   padding: 50px 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.brand-logo{
+   font-weight: 900;
+   font-size: 34px;
+}
+
+.brand-logo a{
+   color: #4E47FF;
+}
+
+#hero-banner{
+   max-width: 905px;
+   text-align: center;
+   margin: 100px auto;
+}
+
+#hero-banner h1{
+   font-weight: bold;
+   font-size: 65px;
+   margin-bottom: 36px;
+}
+
+/* Action section */
+#preview-section{
+   padding-top: 116px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 116px;
+}
+
+.content-text{
+   max-width: 517px;
+
+}
+
+.content-text h2{
+   font-size: 42px;
+   font-weight: bold;
+}
+
+.content-text p{
+   font-size: 24px;
+   color: #25243280;
+   font-weight: normal;
+   margin: 23px 0;
+}
+
+.preview-image{
+   width: 403px;
+   border-radius: 48px;
+}
+
+/* user-section */
+#statistics-section{
+   padding: 50px 142px;
+   background-color: #4e47ff1a;
+   border-radius: 24px;
+   margin-bottom: 137px;
+   text-align: center;
+}
+
+#statistics-section h2{
+   font-size: 38px;
+   font-weight: bold;
+   margin-bottom: 40px;
+}
+
+.stats-grid{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.stats-grid h3{
+   color: #4E47FF;
+   font-size: 80px;
+   font-weight: bold;
+}
+
+.stats-grid p{
+   color: #00000080;
+   font-size: 20px;
+   font-weight: 400;
+}
+
+/* user-feedback */
+#testimonials{
+   margin-bottom: 137px;
+}
+
+#testimonials h2{
+   font-size: 42px;
+   font-weight: bold;
+   margin-bottom: 50px;
+   text-align: center;
+}
+
+.testimonial-grid{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 20px;
+}
+
+.review-card{
+   padding: 24px;
+   border: 1px solid #F2EDED;
+   background-color: white;
+   border-radius: 14px;
+}
+
+.review-card ul{
+   display: flex;
+   gap: 4px;
+   align-items: center;
+}
+
+.review-card ul li {
+   padding: 1.67px;
+}
+
+.review-content{
+   margin: 24px 0;
+}
+
+.review-card h3{
+   color: #1E1E1E;
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 8px;
+
+}
+
+.review-card p{
+   color: #1E1E1E;
+   font-size: 16px;
+   font-weight: 400;
+   margin-bottom: 8px;
+}
+
+.user-info{
+   display: flex;
+   gap: 12px;
+}
+
+.user-info img{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+}
+
+.user-info h4{
+   color: #757575;
+   font-size: 16px;
+   font-weight: 600;
+   margin-bottom: 2px;
+}
+
+.user-info p{
+   color: #B3B3B3;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+/* better section */
+#focus-section{
+   padding: 71px 100px;
+   background-color: white;
+   margin-bottom: 92px;
+}
+
+.focus-content{
+   text-align: center;
+}
+
+.focus-content h2{
+   color: black;
+   font-size: 50px;
+   font-weight: bold;
+}
+
+.focus-content p{
+   color: #00000080;
+   font-size: 16px;
+   font-weight: 400;
+   margin: 20px 0;
+}
+
+
+.focus-content .btn-primary{
+   font-weight: 500;
+}
+
+#focus-section .focus-visual{
+   width: 840px;
+   margin: 20px auto;
+   border-radius: 48px;
+}
+
+.focus-visual img{
+   border-radius: 48px;
+}
+
+#contact-form{
+   padding: 71px 0px;
+   margin-bottom: 104px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#contact-form h2{
+   color: black;
+   font-weight: bold;
+   font-size: 97px;
+   max-width: 528px;
+}
+
+#contact-form form{
+   width: 497px;
+   height: 490px;
+}
+
+#contact-form form div{
+   width: 100%;
+   margin-bottom: 20px;
+}
+
+form div label{
+   display: block;
+   font-size: 18px;
+   color: black;
+   font-weight: 500;
+   margin-bottom: 10px;
+}
+
+form div input{
+   display: block;
+   font-size: 20px;
+   color: #00000080;
+   font-weight: 400;
+   padding: 20px 32px;
+   width: 100%;
+   border: 1px solid #D6DDED;
+}
+
+form div textarea{
+   display: block;
+   font-size: 20px;
+   color: #00000080;
+   font-weight: 400;
+   padding: 20px 32px;
+   width: 100%;
+   border: 1px solid #D6DDED;
+   height: 135px;
+   resize: none;
+}
+
+form button{
+   display: block;
+   font-size: 16px;
+   color: #fff;
+   font-weight: 700;
+   padding: 20px 0px;
+   width: 100%;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+/* foot-section */
+#page-footer{
+   padding: 104px 0;
+   background-color: white;
+}
+
+.footer-content{
+   max-width: 531px;
+   text-align: center;
+   margin: 0 auto;
+}
+
+.footer-brand{
+   font-size: 100px;
+   font-weight: 900;
+   color: #4E47FF;
+}
+
+.footer-content p{
+   font-size: 16px;
+   font-weight: 400;
+   color: #8987A1;
+   margin: 8px 0 20px;
+}
+
+.footer-content ul{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.footer-content ul li a{
+   color: #8987A1;
+   font-size: 16px;
+   font-weight: 400;
+
+}
